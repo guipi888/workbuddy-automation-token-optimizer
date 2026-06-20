@@ -1,5 +1,9 @@
 ---
 name: "automation-token-optimizer"
+slug: "automation-token-optimizer"
+displayName: "自动化定时任务 Token 优化"
+version: "1.0.0"
+description: "WorkBuddy 技能：每月自动审计所有定时任务的 token 消耗，找出高消耗任务并给出脚本化/降频/精简的具体优化方案，帮你持续降低 AI 自动化成本。"
 summary: "自动化定时任务 Token 优化审计工具 —— 每月自动扫描所有定时任务的 token 消耗，找出高消耗任务并给出脚本化/降频/精简的具体优化方案"
 read_when:
   - 用户问"哪些定时任务消耗 token 最多"
