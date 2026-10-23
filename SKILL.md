@@ -1,13 +1,13 @@
 ---
 name: "automation-token-optimizer"
 slug: "automation-token-optimizer"
-displayName: "定时任务管理（含token节约）"
-version: "2.0.0"
-description: "定时任务全生命周期管理：token 消耗审计 + 合并评估 + 冗余清理。自动扫描所有定时任务，找出高消耗任务、可合并任务、可删除任务，给出综合优化方案。"
+displayName: "定时任务管理·Token节约"
+version: "2.0.1"
+description: 定时任务越建越多，token 越烧越狠？想审计定时任务却不知道从何下手？定时任务管理（含token节约）（scheduled task audit / token optimizer / automation audit / 任务合并）做全生命周期管理：自动读取数据库扫描所有 agent 定时任务，统计 token 消耗排行，做消耗审计 + 合并评估 + 冗余清理，找出高消耗任务、可合并任务、可删除任务，给出综合优化方案。当用户说「哪些定时任务消耗token最多」「帮我审计定时任务」「如何合并定时任务」「精简任务」「我想清理自动化任务」时触发。Use when your scheduled tasks are piling up and burning tokens. 支持月度自动审计与场景化配置，报告可直接作为精简依据。触发词：定时任务、token消耗、token优化、合并任务、冗余清理、scheduled task、automation audit。
 summary: "定时任务管理（含token节约）—— 月度审计 token 消耗 + 评估可合并/可删除任务 + 给出综合优化方案，帮你保持定时任务体系精简高效"
-xiaping_trigger: ["定时任务", "自动化任务", "token消耗", "token优化", "合并任务", "精简任务"]
-xiaping_category: ["效率工具", "自动化"]
-xiaping_tags: ["定时任务", "token优化", "自动化管理", "任务合并", "冗余清理"]
+trigger: ["定时任务", "自动化任务", "token消耗", "token优化", "合并任务", "精简任务"]
+category: ["效率工具", "自动化"]
+tags: ["定时任务", "token优化", "自动化管理", "任务合并", "冗余清理"]
 read_when:
   - 用户问"哪些定时任务消耗 token 最多"
   - 用户想优化自动化任务的 token 成本
@@ -15,6 +15,8 @@ read_when:
   - 用户需要每月自动审计定时任务体系
   - 用户说"帮我整理一下定时任务"
   - 用户说"定时任务太多了想精简"
+author: guipi888
+license: MIT
 ---
 
 # 定时任务管理（含 token 节约）
